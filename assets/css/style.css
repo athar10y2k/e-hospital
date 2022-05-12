@@ -2273,15 +2273,14 @@ body {
 
 .subheading {
 	text-align: center;
-	color: rgb(14, 12, 29);
+	color: #ff8383;
 	font-size: 32px;
 	top: 18%;
 	position: relative;
 	vertical-align: middle;
 }
 
-.tiles {
-	/* position: relative; */
+/* .tiles {
     top:50px;
     bottom: 0;
     left: 0;
@@ -2294,15 +2293,134 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-image: none;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	background-image: url('/assets/img/Nearby Hospital.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
+h3{
+	color: #ffffff;
+}
+h3:hover {
+	color: #ffffff;
+}
+.subheading p {
+}
+.tiles-1 {
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	height: 200px;
+	width: 150px;
+	background-color: #f4fcff;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.144);
+	background-image: url('/assets/img/Nearby Hospital.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.tiles:hover {
+.tiles-2 {
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	height: 200px;
+	width: 150px;
+	background-color: #f4fcff;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.144);
+	background-image: url('/assets/img/Book Appointment.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tiles-3 {
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	height: 200px;
+	width: 150px;
+	background-color: #f4fcff;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.144);
+	background-image: url('/assets/img/Buy Medicine.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tiles-4 {
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	height: 200px;
+	width: 150px;
+	background-color: #f4fcff;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.144);
+	background-image: url('/assets/img/Search Doctor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tiles-5 {
+    top:50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	height: 200px;
+	width: 150px;
+	background-color: #f4fcff;
+	border-radius: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.144);
+	background-image: url('/assets/img/Chat With MediBot.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* #tiles-1 {
+
+	background-image: url('/assets/img/Nearby Hospital.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}   */
+
+.tiles-1:hover,.tiles-2:hover,.tiles-3:hover,.tiles-4:hover,.tiles-5:hover{
 	box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 	transition: 0.2s ease-in;
 	background-color: #D8EFFD;
 	color: #00e65b;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.327);
 }
 
 
