@@ -44,7 +44,8 @@ Version      : 1.0
 35. Outgoing Call
 36. Incoming Call
 37. Terms and Conditions
-38. Responsive
+38. Nearby Hospital
+39. Responsive
 
 ========================================*/
 
@@ -96,6 +97,7 @@ html {
 	/* visibility: hidden;
 	 */
 	display: none;
+	
 }
 
 body {
@@ -1014,6 +1016,7 @@ button.bg-danger:hover {
 .card {
 	border: 1px solid #f0f0f0;
 	margin-bottom: 1.875rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-body {
@@ -6978,8 +6981,63 @@ body {
 	font-size: 16px;
 }
 
+
 /*-----------------
-	38. Responsive
+	39. Nearby Hospital
+-----------------------*/
+
+.button-15 {
+	background-image: linear-gradient(#42A1EC, #0070C9);
+	border: 1px solid #0077CC;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	cursor: pointer;
+	direction: ltr;
+	display: flex;
+	margin: auto;
+	font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	line-height: 1.47059;
+	min-width: 30px;
+	overflow: visible;
+	padding: 4px 15px;
+	text-align: center;
+	vertical-align: baseline;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	font-weight: 600;
+  }
+  
+  .button-15:disabled {
+	cursor: default;
+	opacity: .3;
+  }
+  
+  .button-15:hover {
+	background-image: linear-gradient(#51A9EE, #147BCD);
+	border-color: #1482D0;
+	text-decoration: none;
+  }
+  
+  .button-15:active {
+	background-image: linear-gradient(#3D94D9, #0067B9);
+	border-color: #006DBC;
+	outline: none;
+  }
+  
+  .button-15:focus {
+	box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+	outline: none;
+  }
+
+
+/*-----------------
+	39. Responsive
 -----------------------*/
 
 @media only screen and (min-width:768px) {
