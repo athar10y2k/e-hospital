@@ -2419,9 +2419,18 @@ body {
 
 /*Athar Css Ends*/
 
+.search-bg {
+    height: auto;
+    /* width: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 60px;
+}
 
 .section-search { 
-	background: #f9f9f9 url(../img/search-bg.png) no-repeat bottom center;
+	/* background: #f9f9f9 url(../img/search-hospital.png) no-repeat bottom center; */
     min-height: 450px;
     background-size: 100% auto;
     position: relative;
