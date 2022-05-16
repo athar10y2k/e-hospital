@@ -2507,13 +2507,13 @@ body {
 	background: #fff url(../img/search.png) no-repeat 10px center;
 }
 .search-box .search-btn {
-    width: 46px;
+    width: 80px;
     -ms-flex: 0 0 46px;
     flex: 0 0 46px;
     height: 46px;
 }
 .search-box .search-btn span {
-	display: none;
+	display: flex;
 	font-weight: 500;
 }
 .search-box .form-text {
