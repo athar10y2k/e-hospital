@@ -8,7 +8,7 @@
 3. Avatar
 4. Nav Tabs
 5. Modal
-6.Slick Slider
+6. Slick Slider
 7. Header
 8. Mobile Menu
 9. Login
@@ -20,12 +20,11 @@
 15. Schedule Timings
 16. Patient Profile
 17. Doctor Profile Settings
-18. Patient Dashboard
-19. Profile Settings
-20. Appoitment List
-21. Terms and Conditions
-22. Nearby Hospital
-23. Responsive
+18. Profile Settings
+19. Appointment List
+20. Terms and Conditions
+21. Nearby Hospital
+22. Responsive
 
 ========================================*/
 
@@ -231,7 +230,7 @@ input[type=password] {
 
 
 /*-----------------
-	3. Bootstrap Classes
+	2. Bootstrap Classes
 -----------------------*/
 
 .btn.focus,
@@ -954,7 +953,7 @@ button.bg-danger:hover {
 }
 
 /*-----------------
-	4. Avatar
+	3. Avatar
 -----------------------*/
 
 .avatar {
@@ -1172,7 +1171,7 @@ button.bg-danger:hover {
 
 
 /*-----------------
-	6. Nav Tabs
+	4. Nav Tabs
 -----------------------*/
 
 .nav-tabs {
@@ -1360,7 +1359,7 @@ button.bg-danger:hover {
 }
 
 /*-----------------
-	7. Modal
+	5. Modal
 -----------------------*/
 
 .modal {
@@ -1433,7 +1432,7 @@ button.bg-danger:hover {
 
 
 /*-----------------
-	9. Slick Slider
+	6. Slick Slider
 -----------------------*/
 
 .slick-slider {
@@ -1601,12 +1600,8 @@ button.bg-danger:hover {
 }
 
 
-
-
-
-
 /*-----------------
-	11. Header
+	7. Header
 -----------------------*/
 
 .header-nav {
@@ -1924,7 +1919,7 @@ button.bg-danger:hover {
 }
 
 /*-----------------
-	12. Mobile Menu
+	8. Mobile Menu
 -----------------------*/
 
 .sidebar-overlay {
@@ -1999,7 +1994,7 @@ html.menu-opened body {
 
 
 /*-----------------
-	14. Login
+	9. Login
 -----------------------*/
 
 .account-page {
@@ -2108,7 +2103,7 @@ html.menu-opened body {
 }
 
 /*-----------------
-	15. Home
+	10. Home
 -----------------------*/
 
 body {
@@ -3166,7 +3161,7 @@ body {
 
 
 /*-----------------
-	17. Doctor Profile
+	11. Doctor Profile
 -----------------------*/
 
 .clinic-direction {
@@ -3626,7 +3621,7 @@ body {
 }
 
 /*-----------------
-	18. Booking
+	12. Booking
 -----------------------*/
 
 .booking-doc-info {
@@ -3796,7 +3791,7 @@ body {
 
 
 /*-----------------
-	20. Booking Success
+	13. Booking Success
 -----------------------*/
 
 .success-page-cont {
@@ -3853,7 +3848,7 @@ body {
 }
 
 /*-----------------
-	21. Invoice View
+	14. Invoice View
 -----------------------*/
 
 .invoice-content {
@@ -3961,7 +3956,7 @@ body {
 }
 
 /*-----------------
-	22. Schedule Timings
+	15. Schedule Timings
 -----------------------*/
 
 .tab-content.schedule-cont .card-title {
@@ -4050,7 +4045,7 @@ body {
 
 
 /*-----------------
-	24. Patient Profile
+	16. Patient Profile
 -----------------------*/
 
 .add-new-btn {
@@ -4106,7 +4101,7 @@ body {
 
 
 /*-----------------
-	27. Doctor Profile Settings
+	17. Doctor Profile Settings
 -----------------------*/
 
 .profile-image img {
@@ -4255,128 +4250,7 @@ body {
 
 
 /*-----------------
-	29. Patient Dashboard
------------------------*/
-
-.profile-sidebar {
-	background-color: #fff;
-	border: 1px solid #f0f0f0;
-	border-radius: 4px;
-	margin-bottom: 30px;
-	overflow: hidden;
-}
-
-.pro-widget-content {
-	border-bottom: 1px solid #f0f0f0;
-	padding: 20px;
-	text-align: center;
-}
-
-.profile-info-widget {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	text-align: left;
-}
-
-.profile-info-widget .booking-doc-img {
-	margin-right: 15px;
-}
-
-.profile-info-widget .booking-doc-img img {
-	border-radius: 4px;
-	height: 90px;
-	width: 90px;
-	object-fit: cover;
-}
-
-.profile-det-info {
-	overflow: hidden;
-}
-
-.profile-det-info h3 {
-	font-size: 17px;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-.patient-details h5 {
-	color: #757575;
-	font-size: 13px;
-	font-weight: normal;
-	margin-bottom: 8px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-.patient-details h5 i {
-	width: 18px;
-}
-
-.dashboard-menu ul {
-	color: #757575;
-	font-size: 14px;
-	line-height: 17px;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	text-transform: capitalize;
-}
-
-.dashboard-menu ul li {
-	line-height: inherit;
-}
-
-.dashboard-menu>ul>li {
-	border-bottom: 1px solid #f0f0f0;
-	position: relative;
-}
-
-.dashboard-menu>ul>li:last-child {
-	border-bottom: 0;
-}
-
-.dashboard-menu ul li a span,
-.dashboard-menu ul li a i {
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.dashboard-menu>ul>li>a {
-	color: #757575;
-	display: block;
-	padding: 16px 20px;
-}
-
-.dashboard-menu>ul>li:hover>a,
-.dashboard-menu>ul>li.active>a {
-	color: #0de0fe;
-}
-
-.dashboard-menu ul li a i {
-	font-size: 16px;
-	margin-right: 10px;
-	width: 16px;
-}
-
-.unread-msg {
-	background-color: #FF8383;
-	border-radius: 2px;
-	color: #272b41;
-	font-size: 10px;
-	font-style: normal;
-	padding: 0 5px;
-	position: absolute;
-	right: 20px;
-	text-align: center;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-/*-----------------
-	30. Profile Settings
+	. Profile Settings
 -----------------------*/
 
 .change-avatar {
@@ -4415,7 +4289,7 @@ body {
 }
 
 /*-----------------
-	31. Appoitment List
+	19. Appointment List
 -----------------------*/
 
 .widget-profile {
@@ -4520,7 +4394,7 @@ body {
 
 
 /*-----------------
-	37. Terms and Conditions
+	20. Terms and Conditions
 -----------------------*/
 
 .terms-text {
@@ -4541,7 +4415,7 @@ body {
 
 
 /*-----------------
-	39. Nearby Hospital
+	21. Nearby Hospital
 -----------------------*/
 
 .button-15 {
@@ -4595,7 +4469,7 @@ body {
 
 
 /*-----------------
-	39. Responsive
+	22. Responsive
 -----------------------*/
 
 @media only screen and (min-width:768px) {
