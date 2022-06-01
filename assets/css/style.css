@@ -16,16 +16,15 @@
 11. Doctor Profile
 12. Booking
 13. Booking Success
-14. Invoice View "Hold"
-15. Schedule Timings
-16. Patient Profile
-17. Doctor Profile Settings
-18. Profile Settings
-19. Appointment List
-20. Terms and Conditions
-21. Nearby Hospital
-22. Responsive
-23. Doctor/Patient Side Bar
+14. Schedule Timings
+15. Patient Profile
+16. Doctor Profile Settings
+17. Profile Settings
+18. Appointment List
+19. Terms and Conditions
+20. Nearby Hospital
+21. Responsive
+22. Doctor/Patient Side Bar
 
 ========================================*/
 
@@ -3957,7 +3956,7 @@ body {
 }
 
 /*-----------------
-	15. Schedule Timings
+	14. Schedule Timings
 -----------------------*/
 
 .tab-content.schedule-cont .card-title {
@@ -4046,7 +4045,7 @@ body {
 
 
 /*-----------------
-	16. Patient Profile
+	15. Patient Profile
 -----------------------*/
 
 .add-new-btn {
@@ -4102,7 +4101,7 @@ body {
 
 
 /*-----------------
-	17. Doctor Profile Settings
+	16. Doctor Profile Settings
 -----------------------*/
 
 .profile-image img {
@@ -4251,7 +4250,7 @@ body {
 
 
 /*-----------------
-	. Profile Settings
+	17. Profile Settings
 -----------------------*/
 
 .change-avatar {
@@ -4290,7 +4289,7 @@ body {
 }
 
 /*-----------------
-	19. Appointment List
+	18. Appointment List
 -----------------------*/
 
 .widget-profile {
@@ -4395,7 +4394,7 @@ body {
 
 
 /*-----------------
-	20. Terms and Conditions
+	19. Terms and Conditions
 -----------------------*/
 
 .terms-text {
@@ -4416,7 +4415,7 @@ body {
 
 
 /*-----------------
-	21. Nearby Hospital
+	20. Nearby Hospital
 -----------------------*/
 
 .button-15 {
@@ -4470,7 +4469,7 @@ body {
 
 
 /*-----------------
-	22. Responsive
+	21. Responsive
 -----------------------*/
 
 @media only screen and (min-width:768px) {
@@ -5746,7 +5745,7 @@ body {
 }
 
 /*-----------------
-	23. Doctor/Patient Side Bar
+	22. Doctor/Patient Side Bar
 -----------------------*/
 
 .profile-sidebar {
